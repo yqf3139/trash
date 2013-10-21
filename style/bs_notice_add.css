@@ -1,0 +1,42 @@
+/* CSS Document */
+
+#table_new_add
+{
+	width: 100%;
+	/*border: 1px;
+	background-color: #6595D6;
+	white-space: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-size: medium;
+	font-variant: normal;
+	font-style: normal;
+	color: -webkit-text;
+	text-align: start;*/
+	font: 12px Arial, Helvetica, sans-serif;
+	border:1px solid #718EBB;
+	border-collapse:collapse;
+}
+
+#th1
+{
+	background-color:#4455aa;
+	color:#FFF;
+	border:1px solid #718EBB;
+}
+
+
+#table_new_add td
+{
+	border:1px solid #718EBB;
+}
+
+#table_new_add a
+{
+	color:#000;
+}
+
+#table_new_add a:hover
+{
+	color:#06C;
+}

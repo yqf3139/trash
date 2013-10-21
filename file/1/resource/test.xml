@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+
+<models>
+
+<model name="hh" pos="6.8521, -2.3877, 3.8296" rot="0.0, 0.0, 0.0" sca="1.0, 1.0, 1.0" uri="/content"/>
+
+<model name="Camera" pos="7.4811, -6.5076, 5.3437" rot="1.1093, 0.0108, 0.8149" sca="1.0, 1.0, 1.0"/>
+
+<model name="TwistedCylinder" pos="-0.88, -3.625, -1.3246" rot="0.0, 0.0, 0.0" sca="1.0, 1.0, 1.0"/>
+
+</models>

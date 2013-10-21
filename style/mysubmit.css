@@ -1,0 +1,58 @@
+/* CSS Document */
+#mysubmit
+{
+	width:181px;
+	height:539px;
+	/*background-color:#33C;*/
+	float:left;
+	overflow:auto;
+}
+
+#findID
+{
+	width:181px;
+	height:43px;
+}
+#submit
+{
+	width:181px;
+	height:300px;
+	/*background-color:#33C;*/
+	float:left;
+}
+#submit table
+{
+	margin-top:4px;
+	font-size:24px;
+	font-weight:bold;
+	font-family:"宋体";
+	width:150px;
+}
+#submit table tr
+{
+	width:150px;
+}
+
+#submit table td
+{
+	width:150px;
+	height:40px;
+}
+
+#submit a
+{
+	color:#000;
+}
+
+#body_bbs
+{
+	float:left;
+	width:181px;
+	margin-top:40px;
+}
+
+#body_bbs img
+{
+	width:181px;
+	border:0px;
+}

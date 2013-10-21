@@ -1,0 +1,39 @@
+/* CSS Document */
+#body_top
+{
+	width:1010px;
+	height:169px;
+	/*background-color:#09C;*/
+	float:left;
+}
+
+#login
+{
+	width:181px;
+	height:169px;;
+	/*background:url(../img/new/login.jpg);*/
+	float:left;
+	text-align:center;
+	/*background-image:url(../img/Azure.jpg);*/
+}
+
+#login_table
+{
+	width:181px;
+	height:169px;
+}
+
+#Pic
+{
+	width:829px;
+	height:169px;
+	background-image:url(../img/new/head2.jpg);
+	overflow:hidden;
+	float:left;
+}
+
+#Pic img
+{
+	width:829px;
+	height:199px;;
+}

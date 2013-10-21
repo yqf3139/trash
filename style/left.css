@@ -1,0 +1,131 @@
+/* CSS Document */
+
+._left
+{
+	width:210px;
+	height:500px;
+	float:left;
+	margin-left:0px;
+	margin-top:0px;
+	/*background-color:#990;*/
+}
+
+._left_up
+{
+	width:196px;;
+	height:298px;
+	/*background-color:yellow;*/
+	float:left;
+	margin-left:9px;
+	margin-top:9px;
+}
+._itemize
+{
+	width:196px;
+	height:117px;
+	/*background-color:pink;*/
+}
+._itemize_top
+{
+	height:32px;
+	border-bottom-width:1px;
+	border-bottom-style: solid;
+	/*border-bottom-color: #425F8B;*/
+	font-family:"宋体";
+	font-weight: bold;
+	font-size:19px;
+	line-height: 35px;/*字体下移*/
+	padding-left:3px;
+	background-image:url(../img/btn_bg1.jpg);
+	background-repeat:repeat-x;
+}
+
+._otherItem
+{
+	margin-top:32px;
+}
+._left ul
+{
+	margin:0;
+	padding:0;
+}
+
+
+
+
+#nav li ul {
+line-height: 27px;    
+list-style-type: none;
+text-align:left;
+left: -999em;
+width: 196px; 
+position: absolute; 
+}
+#nav li ul li{
+float: left; 
+width: 196px;
+background: #F6F6F6; 
+}
+
+
+#nav li ul a{
+display: block; 
+width: 196px;
+width: 196px;
+text-align:left;
+padding-left:24px;
+}
+
+
+#nav li ul a:link    {
+color:#666; text-decoration:block;
+}
+#nav li ul a:visited    {
+color:#666;text-decoration:none;
+}
+#nav li ul a:hover    {
+color:#F3F3F3;text-decoration:none;font-weight:normal;
+background:#666;
+}
+
+#nav li:hover ul {
+left: auto;
+}
+#nav li.sfhover ul {
+left: auto;
+}
+
+
+
+._left li
+{
+	list-style-type:none;
+	list-style-position: outside;
+	overflow: hidden;
+	line-height: 28px;
+	font-family:"宋体";
+	font-size:12px;
+	font-weight:bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #425F8B;
+	margin:0;
+	padding:0px;
+	background-color:#CCCCCC;
+}
+
+._left a
+{
+		TEXT-DECORATION: none;
+		color:#415E89;
+}
+._left_down
+{
+	width:196px;
+	height:100px;
+	/*background-color:#0066CC;*/
+	float:left;
+	margin-left:9px;
+	margin-top:70px;
+}
+

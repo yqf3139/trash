@@ -1,0 +1,63 @@
+body
+{
+	background-color:#76a5db;
+	margin:0px;
+	padding:0px;
+}
+
+#all
+{
+	
+	width:900px;
+	height:380px;
+	margin:0 auto;
+	padding:100px 0;
+	background:url(../../img/manager_login_bg.jpg) no-repeat;
+}
+
+#login
+{
+	text-align: center;
+	width: 540px;
+	height: 372px;
+	margin: 0px auto;
+	background:url(../../img/manager_login_bg2.png) no-repeat;
+}
+
+#login_form
+{
+	width: 340px;
+	margin: 70px auto;
+}
+
+#user
+{
+	width: 337px;
+	height: 26px;
+	margin-top: 10px;
+	background:url(../../img/manager_login_user.jpg) no-repeat;
+}
+
+.textbox
+{
+	width: 195px;
+	border: none;
+	height: 22px;
+	line-height: 22px;
+	float: right;
+	margin: 1px 1px 1px;
+}
+#pwd
+{
+	width: 337px;
+	height: 26px;
+	margin-top: 10px;
+	background:url(../../img/manager_login_pwd.jpg) no-repeat;
+}
+
+#sub
+{
+	width: 337px;
+	height: 26px;
+	margin-top: 10px;
+}

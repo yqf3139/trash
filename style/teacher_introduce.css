@@ -1,0 +1,57 @@
+/* CSS Document */
+#nowposition
+{
+	width:829px;
+	height:5px;
+}
+#title
+{
+	width:829px;
+	height:42px;
+	font-weight:bold;
+	font-size:36px;
+}
+#teachers_window
+{
+	width:829px;
+	height:454px;
+	overflow:auto;
+}
+#teachers_list
+{
+	margin-left:50px;
+}
+
+
+#teacher_one
+{
+	width:700px;
+	height:130px;
+	border-top:1px solid #999;
+}
+
+#Pic_list
+{
+	width:15%;
+	height:95%;
+	float:left;
+}
+#text_list
+{
+	width:85%;
+	height:100%;
+	float:left;
+	overflow:auto;
+}
+
+a img{ border:none}
+#teacher
+{
+	width:90%;
+}
+
+#teacher th
+{
+	font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight:500;
+}

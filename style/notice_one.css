@@ -1,0 +1,70 @@
+/* CSS Document */
+body
+{
+	margin:0px;
+	padding:0px;
+	background-color:#CCC;
+
+}
+
+
+._all
+{
+	margin:0 auto;
+	padding:0;
+	width:1010px;
+	height:900px;
+	/*background-color:#0C0;*/
+}
+
+._body
+{
+	background-image:url(../img/back02.png);
+	width:1010px;
+	height:738px;
+	background-color:#fff;
+}
+._body_top
+{
+	width:1010px;
+	height:30px;
+	/*background-color:#00FF66;*/
+	background-image:url(../img/%E6%B8%90%E5%8F%98.png);
+}
+
+span
+{
+	font-size:12px;
+	font-weight:500;
+}
+
+span a
+{
+	font-size:12px;
+	font-weight:500;
+	text-decoration: none;
+	color:#000;
+}
+
+._notice_table
+{
+	width:80%;
+	border-collapse:collapse;
+	table-layout: fixed;/*固定宽度*/
+	word-break:break-all;
+	
+}
+
+._notice_table th
+{
+	font-size:18px;
+}
+._notice_table td
+{
+	font-size:16px;
+}
+
+._right
+{
+	height:678px;
+}

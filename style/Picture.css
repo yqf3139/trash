@@ -1,0 +1,20 @@
+/* CSS Document */
+._right table
+{
+	overflow:hidden;
+	margin:auto;
+}
+._right tr
+{
+	overflow:hidden;
+}
+._right td
+{
+
+	border:1px solid #f00;
+	height: 30px;
+	line-height: 20px;
+	text-align: center;
+	width: 12.5%;
+	overflow:hidden;
+}

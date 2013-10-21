@@ -1,0 +1,19 @@
+/* CSS Document */
+#middle
+{
+	width:400px;
+	height:708px;
+	float:left;
+	overflow:auto;
+}
+#right
+{
+	width:308px;
+	height:708px;
+	margin:0px;
+	padding:0px;
+	float:left;
+	overflow:auto;
+	text-align: center;
+	border-left:1px solid #000;
+}

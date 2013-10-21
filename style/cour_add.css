@@ -1,0 +1,21 @@
+/* CSS Document */
+#add
+{
+	margin:0 auto;
+	width:500px;
+	height:500px;
+	text-align:center;
+	float:left;
+}
+
+#table
+{
+	width: 100%;
+	font: 12px Arial, Helvetica, sans-serif;
+	border:1px solid #718EBB;
+	border-collapse:collapse;
+	margin-top:10px;
+	table-layout: fixed;/*固定宽度*/
+	word-break:break-all;
+}
+

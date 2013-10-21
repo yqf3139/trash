@@ -1,0 +1,33 @@
+/* CSS Document */
+._title
+{
+	width:100%;
+	height:10%;
+	float:left;
+}
+
+._notice
+{
+	width:100%;
+	height:80%;
+	overflow:hidden;
+}
+
+._download
+{
+	width:100%;
+	height:10%;
+}
+
+._table_notice
+{
+	width:80%;
+	table-layout: fixed;/*固定宽度*/
+	word-break:break-all;
+}
+
+._text
+{
+	width:90%;
+	overflow:hidden;
+}

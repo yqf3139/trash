@@ -1,0 +1,105 @@
+/* CSS Document */
+body
+{
+	margin:0;
+	padding:0;
+	background:#CCC;
+}
+
+#all
+{
+	width:1010px;
+	height:900px;
+	margin:0 auto;
+	padding:0;
+	background:#fff;
+}
+
+
+#top
+{
+	width:1010px;
+	height:162px;
+}
+
+#top_left
+{
+	height:162px;
+	width:470px;
+	/*background-color:#093;*/
+	float:left;
+}
+
+#top_right_top
+{
+	height:125px;
+	width:470px;
+	float:left;
+}
+
+#body
+{
+	width:1010px;
+	height:738px;
+}
+
+#position
+{
+	width:1010px;
+	height:30px;
+	background:url(../img/%E6%B8%90%E5%8F%98.png) no-repeat;
+
+}
+
+span
+{
+	font-size:12px;
+	font-weight:500;
+}
+
+span a
+{
+	text-decoration: none;
+	color:#000;
+}
+
+#table_new_add
+{
+	width: 80%;
+	/*border: 1px;
+	background-color: #6595D6;
+	white-space: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-size: medium;
+	font-variant: normal;
+	font-style: normal;
+	color: -webkit-text;
+	text-align: start;*/
+	font: 12px Arial, Helvetica, sans-serif;
+	border:1px solid #718EBB;
+	border-collapse:collapse;
+}
+
+#th1
+{
+	background-color:#4455aa;
+	color:#FFF;
+	border:1px solid #718EBB;
+}
+
+
+#table_new_add td
+{
+	border:1px solid #718EBB;
+}
+
+#table_new_add a
+{
+	color:#000;
+}
+
+#table_new_add a:hover
+{
+	color:#06C;
+}

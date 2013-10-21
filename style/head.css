@@ -1,0 +1,19 @@
+/* CSS Document */
+#header
+{
+	width:1010px;
+	height:162px;
+	background-color:#FFF;
+	background-image:url(../img/title.png);
+}
+
+#header a
+{
+	TEXT-DECORATION: none;
+	margin-top:140px;
+	color:#415E89;
+	float:right;
+	font-family:"宋体";
+	font-weight: bold;
+}
+

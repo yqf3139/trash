@@ -1,0 +1,33 @@
+/* CSS Document */
+#right
+{
+	overflow:auto;
+}
+
+#alter_table
+{
+	width:80%;
+	border-collapse:collapse;
+	table-layout: fixed;/*固定宽度*/
+	word-break:break-all;
+}
+
+#alter_table th
+{
+	border:1px solid #718EBB;
+}
+
+#alter_table td
+{
+	border:1px solid #718EBB;
+}
+
+#alter_table a
+{
+	color:#000;
+}
+
+#alter_table a:hover
+{
+	color:#06C;
+}

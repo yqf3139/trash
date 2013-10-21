@@ -1,0 +1,19 @@
+/* CSS Document */
+
+#resource
+{
+	width:100%;
+}
+#resource_list
+{
+	width:80%;
+	border-collapse:collapse;
+	border:1px solid #39F;
+	table-layout: fixed;/*固定宽度*/
+	word-break:break-all;
+}
+
+#resource_list th,#resource_list td
+{
+  	border:1px solid #39F;
+}

@@ -1,0 +1,13 @@
+/* CSS Document */
+#footer {
+	width:1010px;
+	height:30px;
+	color: #757575;
+	background-color:#fff;
+	font-size:9px;
+}
+
+#footer a{
+	color: #757575;
+	font-size:9px;
+}

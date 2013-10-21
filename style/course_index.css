@@ -1,0 +1,234 @@
+/* CSS Document */
+#part_1
+{
+	width:500px;
+	height:539px;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+
+#course
+{
+	width:500px;
+	height:300px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+
+#course_title
+{
+	width:500px;
+	height:33px;
+	background-image:url(../img/new/titlethree1.jpg);
+	float:left;
+	font:Arial, Helvetica, sans-serif;
+	font-size:29px;
+	font-weight:bold;
+	color:#333;
+}
+#course_content
+{
+	width:100%;
+	height:100%;
+	
+}
+
+#table_course_content
+{
+	width:90%;
+	table-layout: fixed;/*固定宽度*/
+	word-break:break-all;	
+}
+font
+{
+	font-weight:bold;
+}
+
+#course_title a
+{
+	text-decoration: none;
+	color:#3a3a3a;
+}
+#Pic_1
+{
+	padding:0px;
+	margin:0px;
+	width:200px;
+	height:120px;
+	background-color:#333;;
+	float:left;
+}
+
+#news
+{
+	width:500px;
+	height:239px;
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+}
+
+#news_title
+{
+	width:500px;
+	height:33px;
+	background-image:url(../img/new/titlethree2.jpg);
+	float:left;
+	font:Arial, Helvetica, sans-serif;
+	font-size:29px;
+	font-weight:bold;
+	color:#333;
+}	
+#news_title a
+{
+	text-decoration: none;
+	color:#3a3a3a;
+}
+
+
+#news_contents
+{
+	list-style: none;
+	padding:0px;
+	margin:0px;
+}
+
+#list
+{
+	float: left;
+	width: 100%;
+	height: 29px;
+	line-height: 29px;
+	border-bottom: 1px solid #f4f2f2;
+	background-position: left center;
+	font-size:12px;
+	color:#3a3a3a;
+}
+
+#new_name
+{
+	
+}
+
+#new_date
+{
+	float: right;
+	width: 70px;
+}
+
+#list a
+{
+	text-decoration: none;
+	color:#3a3a3a;
+}
+#list a:hover
+{
+	text-decoration: none;
+	color:#666;
+}
+
+#part_2
+{
+	width:329px;
+	height:539px;
+	float:left;
+}
+
+#others
+{
+	width:329px;
+	height:300px;
+	float:left;
+}
+#calendar
+{
+	width:329px;
+	height:267px;
+	background:#fff;
+	float:left;
+}
+#jiaoxuerili,#kechengdagang,#kaoshidagang
+{
+	width:180px;
+	height:80px;
+	float:left;
+	margin-top:3px;
+	margin-left:2px;
+	background-color:#00FF33;
+}
+#kechengziyuan
+{
+	width:140px;
+	height:140px;
+	margin-top:3px;
+	margin-left:2px;
+	float:right;
+	background-color:#00FF33;
+}
+
+#others_title
+{
+	width:329px;
+	height:33px;
+	background-image:url(../img/new/titlethree3.jpg);
+	float:left;
+		font:Arial, Helvetica, sans-serif;
+	font-size:29px;
+	font-weight:bold;
+	color:#333;
+}
+#teachers_title
+{
+	width:329px;
+	height:33px;
+	background-image:url(../img/new/titlethree4.jpg);
+	float:left;
+	font:Arial, Helvetica, sans-serif;
+	font-size:29px;
+	font-weight:bold;
+	color:#333;
+}		
+#others_title a,#teachers_title a
+{
+	text-decoration: none;
+	color:#3a3a3a;
+}
+#teachers
+{
+	width:329px;
+	height:239px;
+	float:left;
+}
+#teachers_name
+{
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 9pt;
+	height:25px;
+	float:left;
+	width:329px;
+	padding-top:5px;
+}
+
+#teachers_Pic1
+{
+	width:91px;
+	height:110px;
+	float:left;
+	background-color:#099;
+
+}
+
+#m_info a
+{
+	font-size:16px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:400;
+}
+
+#m_info a:hover
+{
+	color:#516DD2;
+	text-decoration:underline;
+}

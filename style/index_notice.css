@@ -1,0 +1,112 @@
+/* CSS Document */
+
+/* CSS Document */
+body
+{
+	margin:0px;
+	padding:0px;
+	background-color:#CCC;
+
+}
+
+._all
+{
+	margin:0 auto;
+	padding:0;
+	width:1010px;
+	height:900px;
+}
+
+._body
+{
+	width:1010px;
+	height:738px;
+	background-color:#fff;
+		background-image:url(../img/back02.png);
+}
+
+
+._body_top
+{
+	width:1010px;
+	height:30px;
+	/*background-color:#00FF66;*/
+	background-image:url(../img/%E6%B8%90%E5%8F%98.png);
+}
+
+span
+{
+	font-size:12px;
+	font-weight:500;
+}
+
+span a
+{
+	font-size:12px;
+	font-weight:500;
+	text-decoration: none;
+	color:#000;
+}
+._Pic
+{
+	width:1010px;
+	height:170px;
+	/*background-color:#FFFF33;*/
+	float:left;
+	background-image:url(../img/title2.png)
+
+}
+
+._right
+{
+	width:797px;
+	height:708px;
+	float:left;
+
+}
+
+._notice_lists
+{
+	height:643px;
+
+}
+._notice_page
+{
+	height:30px;
+	width:797px;
+}
+#_course_list
+{
+	color:#2857A4;
+}
+._notice_title h1
+{
+	font-size: 19px;
+	text-align: center;
+	line-height: 35px;
+	height: 35px;
+	color: #F60;
+	font-weight: bold;
+	margin: 0px 10px;
+	border-bottom: 1px #F60 dashed;
+}
+
+._notice_lists tr
+{
+	border:1px solid #f00;
+}
+._notice_lists td
+{
+
+	/*border:1px solid #f00;*/
+	height: 30px;
+	line-height: 20px;
+	text-align: center;
+	color:#2857A4;
+	overflow:hidden;
+	font-weight:100
+}
+._notice_lists a
+{
+	color:#2857A4;
+}

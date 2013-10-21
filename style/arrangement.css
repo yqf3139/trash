@@ -1,0 +1,36 @@
+/* CSS Document */
+#nowposition
+{
+	width:829px;
+	height:5px;
+}
+#title
+{
+	width:829px;
+	height:42px;
+	font-weight:bold;
+	font-size:36px;
+}
+
+#course_introduce
+{
+	width:100%;
+	
+}
+
+#table_course_content
+{
+	width:90%;
+	table-layout: fixed;/*固定宽度*/
+	word-break:break-all;	
+}
+
+font
+{
+	font-weight:bold;
+}
+
+#arrangement
+{
+	width:100%;
+}

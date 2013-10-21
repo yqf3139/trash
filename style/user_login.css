@@ -1,0 +1,12 @@
+/* CSS Document */
+#login_table
+{
+	width:50%;
+	border:1px solid #718EBB;
+	border-collapse:collapse;
+}
+
+#login_table td
+{
+	border:1px solid #718EBB;
+}

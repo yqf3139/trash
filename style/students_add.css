@@ -1,0 +1,71 @@
+/* CSS Document */
+body
+{
+	margin:0px auto;
+	padding:0px;
+	background-color:#CCC;
+}
+
+._all
+{
+	margin:0 auto;
+	padding:0;
+	width:1010px;
+	height:900px;
+	/*background-color:#0C0;*/
+}
+
+._body
+{
+	width:1010px;
+	height:738px;
+	margin:0 auto;
+	background-color:#FFF;
+}
+
+._body_top
+{
+	width:1010px;
+	height:30px;
+	/*background-color:#00FF66;*/
+	background-image:url(../img/%E6%B8%90%E5%8F%98.png);
+}
+
+
+._table
+{
+	width: 80%;
+	/*border: 1px;
+	background-color: #6595D6;
+	white-space: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-size: medium;
+	font-variant: normal;
+	font-style: normal;
+	color: -webkit-text;
+	text-align: start;*/
+	font: 12px Arial, Helvetica, sans-serif;
+	border:1px solid #718EBB;
+	border-collapse:collapse;
+}
+
+._table th
+{
+	border:1px solid #718EBB;
+}
+
+._table td
+{
+	border:1px solid #718EBB;
+}
+
+._table a
+{
+	color:#000;
+}
+
+._table a:hover
+{
+	color:#06C;
+}

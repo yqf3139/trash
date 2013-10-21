@@ -1,0 +1,103 @@
+/* CSS Document */
+.left
+{
+	width:210px;
+	height:500px;
+	/*background-color:#00CC33;*/
+	float:left;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+
+.zzjs_net dl,.zzjs_net dt,.zzjs_net dd{
+	 padding:0;
+	 margin:0;
+}
+.zzjs_net{
+ 	width:210px;
+ 	font-family:"宋体";
+	font-weight: bold;
+	font-size:12px;
+	/*line-height: 35px;*//*字体下移*/
+	/*padding-left:3px;*/
+	float:left;
+ /*border:1px solid #BFC7D9;*/
+}
+.zzjs_net dl{
+ width:210px;
+ height:440px;
+ background:#EDF5FF;
+ overflow:hidden;
+}
+.zzjs_net dt{
+ padding:5px 10px;
+ height:24px;
+ font-size:19px;
+ color:#000;
+ background:#E5ECF9;
+ /*border-top:1px solid #fff;
+ border-bottom:1px solid #BFC7D9;*/
+}
+.zzjs_net dl.on dt{
+ background:#3366CC;
+ color:#FFF;
+ font-weight:bold;
+}
+
+.zzjs_net dd{
+  padding:0;
+  margin:0;
+}
+/*
+.zzjs_net dd a:link,
+.zzjs_net dd a:visited,
+.zzjs_net dd a:hover,
+.zzjs_net dd a:active{
+ color:#666; 
+ text-decoration:block;
+}*/
+.on dd ul
+{
+	position: absolute;/*注意on元素有点特殊*/
+}
+dd ul
+{
+	 padding:0;
+ 	 margin:0;
+	line-height: 30px;    
+	list-style-type: none;
+	text-align:left;
+	width: 210px; 
+	font-size:12px;
+	left: auto;
+	overflow:hidden;
+}
+dd ul li
+{
+	border-bottom:1px solid #000;
+}
+
+dd ul li a
+{
+	text-align:left;
+	padding-left:0px;
+	TEXT-DECORATION: none;
+}
+
+dd ul li  a:link    {
+	color:#666; 
+	text-decoration:block;
+}
+dd ul li  a:visited    {
+	color:#666;
+	text-decoration:none;
+}
+
+dd ul li:hover {
+	text-decoration:none;
+	font-weight:normal;
+	background:#CCC;
+}
+
+
