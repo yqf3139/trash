@@ -24,10 +24,11 @@
  	include_once('../../inc/dataInformation.php');
 	$db=new dataInformation;
 	$data=$db->SelectByType(constant("CENTER_NOTICE"));
-	$page=intval($_GET['page']);
-  			if(!empty($page))
+	if(isset($_GET['page']))
+        $page=intval($_GET['page']);
+    if((!empty($page))&&isset($page))
  			for($i=0;$i<($page-1)*15;++$i)
-  			next($data);
+  			   next($data);
 ?>
 <body>
 	<div id="all">

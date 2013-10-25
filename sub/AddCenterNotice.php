@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <html xmlns="http://www.w3.org/1999/xhtml">
 <?php
-include_once('Information.php');
+include_once('information.php');
 $info=new Info;
 $info->Authority('ADMIN');
 $info->add("CENTER_NOTICE");

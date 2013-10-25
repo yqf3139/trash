@@ -92,7 +92,8 @@ class LoginClass{
       echo "<script>alert('非法操作');history.back();</script>";
       die();
     }
-    $_GET['id']=$_POST['course_id'];
+    if(isset($_POST['course_id']))
+      $_GET['id']=$_POST['course_id'];
     if($type!=constant("ADMIN")&&(!isset($_POST['check'])||$_POST['check']!=$_SESSION['check_pic'])){
       echo "<script>alert('验证码错误');</script>";
       self::JumpUrl($type);
@@ -128,9 +129,7 @@ class LoginClass{
       }
     }
 
-    echo "checkPassword";
     self::checkPassword($username,$pwd,$type,$jump);
-    echo "checkPassword";
 
     set_time_limit(0);
     if($type==1)
@@ -146,8 +145,8 @@ class LoginClass{
   function checkPassword( $username, $pwd, &$type,&$jump=true){
 
 	$isCorrect=true;
-    if($type==1){echo "======checkPassword=========";
-      $db=new dataAdministrator;echo "======checkPassword=========";
+    if($type==1){
+      $db=new dataAdministrator;
       $pwd=$db->checkPassword($username,$pwd);
 	  if(!$pwd )
         $isCorrect=false;
@@ -156,13 +155,13 @@ class LoginClass{
       if(!intval($username))$isCorrect=false;
       else{
         $DbTearcher=new dataTeacher;
-        $DbStudent=new dataStudent;echo "======checkPassword=========";
+        $DbStudent=new dataStudent;
         $flag=$DbStudent->checkPassword($username,$pwd);
         if($flag){
           $type=constant("STUDENT");
           $pwd=$flag;
         }
-        else{echo "======checkPassword=========";
+        else{
         $pwd=$DbTearcher->checkPassword($username,$pwd);
         if($pwd)
           $type=constant("TEACHER");

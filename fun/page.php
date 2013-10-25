@@ -14,9 +14,10 @@
 		//URL分析：
 		$parse_url = parse_url($url);
 		//print_r($parse_url);
-		$url_query = $parse_url["query"]; //单独取出URL的查询字串
+		if(isset($parse_url["query"]))
+			$url_query = $parse_url["query"]; //单独取出URL的查询字串
 		//echo $url_query;//page=2
-		if ($url_query) {
+		if (isset($url_query)) {
 			//echo $url_query;
 			$url_query = ereg_replace("(^|&)page=$page", "", $url_query);
 			//echo $url_query;

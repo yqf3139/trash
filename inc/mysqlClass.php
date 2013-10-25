@@ -33,6 +33,7 @@
 	}
   
 	function insert($table, $data,$return = false,$debug=false) {//插入数据,debug为真返回sql
+		date_default_timezone_set("Asia/Shanghai");
 		if(!$table) {
 			return false;
 		}
@@ -55,6 +56,7 @@
 		return $return ? mysql_insert_id() : $query;
 	}
 	function update($table, $condition, $data, $limit = 1,$debug=false) {//更新数据
+		date_default_timezone_set("Asia/Shanghai");		
 		if(!$table) {
 			return false;
 		}
