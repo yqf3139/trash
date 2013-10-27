@@ -7,6 +7,7 @@ include_once('../../login.php');
 $login=new LoginClass;
 $login->authority(constant('ADMIN'));
 ?>
+<? include_once('../../fun/page.php');?>
 <?php
 	include_once('../../inc/dataTeacher.php');
 	$db=new dataTeacher;
@@ -70,6 +71,10 @@ function goto_add()
                 <?php }?>
                   <tr  align="center"><td colspan="4"><input type="button" value="添加" onclick="goto_add()"></td></tr>
                   <tr><td colspan="4" align="center"> 
+                   <?
+						_PAGEFT(count($data),15);
+						 echo $pagenav;
+					   ?>
                   </td></tr>
             </table>
         </div>	

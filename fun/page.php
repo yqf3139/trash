@@ -39,8 +39,8 @@
 		$firstcount = ($page -1) * $displaypg;
 
 		//开始分页导航条代码：
-		$pagenav = "";
-		$pagenav .= ($totle ? ($firstcount +1) : 0) . "</B>-<B>" . min($firstcount + $displaypg, $totle) . "</B> 条记录，共 $totle 条记录";
+		$pagenav = "显示第 <B>" . ($totle ? ($firstcount +1) : 0) . "</B>-<B>" . min($firstcount + $displaypg, $totle) . "</B> 条记录，共 $totle 条记录";
+
 		//如果只有一页则跳出函数：
 		if ($lastpg <= 1)
 			return false;
@@ -65,6 +65,5 @@
 				$pagenav .= "<option value='$i'>$i</option>\n";
 		}
 		$pagenav .= "</select> 页，共 $lastpg 页";
-		return $pagenav;
 	}
 ?>

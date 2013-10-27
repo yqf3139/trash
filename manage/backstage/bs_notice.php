@@ -20,6 +20,7 @@
 </script>
 </head>
 <?php 
+	include_once('../../fun/page.php');
  	include_once('../../inc/dataInformation.php');
 	$db=new dataInformation;
 	$data=$db->SelectByType(constant("CENTER_NOTICE"));
@@ -58,6 +59,10 @@
                         
                         <tr><td colspan="4"><a href="./bs_notice_add.php">添加</a></td></tr>
                         <tr><td colspan="4">
+                         <?
+						_PAGEFT(count($data),15);
+						echo $pagenav;
+						?>
                         </td></tr>
                     </table>
                 </div>

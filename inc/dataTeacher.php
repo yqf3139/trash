@@ -52,16 +52,16 @@ class dataTeacher extends SecurityDB{
    		 return $res;
     }
     function InsertByPkey($values){
-		if(self::check($values)){
-		$res = self::$db->insert('teacher',$values,true);
-		$values['password']=self::cryptPassword($values['password'],$res);
-        $res=self::$db->update('teacher','teacher_id='.$res,$values);		
-		}
-	  return $res;	
+      if(!self::Check($values)){
+        return "values is inlegal";
+      }
+	    $values['password']=self::cryptPassword($values['password'],$values['teacher_id']);
+      $res=self::$db->insert('teacher',$values);
+      return $res;
     }
     function Check(& $values){
 		$values['settime']=date("y-m-d h:i:s",time());
-    return 1;
+    	return 1;
     }
     function getAll(){
 		$sql = "select * from `teacher` ";

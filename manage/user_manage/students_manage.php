@@ -13,7 +13,7 @@ $login->authority(constant('ADMIN'));
 ?>
 <?php
  	include_once('../../inc/dataStudent.php');
-	
+	include_once('../../fun/page.php');
 	$db=new dataStudent;
   if(empty($_GET['search'])){
 	$data=$db->GetAll();
@@ -213,6 +213,10 @@ function goto_add()
           
         </div>	
           <div id="page_nun" align="center">
+            <?
+			_PAGEFT(count($data),15);
+			echo $pagenav;
+            ?>
             </div>
 		<?php include_once('../../globals/foot.php'); ?>	
      </div>
