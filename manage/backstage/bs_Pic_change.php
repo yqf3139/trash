@@ -2,7 +2,10 @@
   include_once('../../inc/dataTeacher.php');
   $teacher=new dataTeacher;
   $data=$teacher->GetAll();
-  $page=intval($_GET['page']);
+  if(isset($_GET['page']))
+    $page=intval($_GET['page']);
+  else 
+    $page=0;
 if(!empty($page))
 for($i=0;$i<($page-1)*15;++$i)
 next($data);

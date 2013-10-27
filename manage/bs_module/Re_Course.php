@@ -12,7 +12,7 @@ $Center->GetRcmd($CourseRcmd,$TeacherRcmd);
               <?php if($CourseRcmd)foreach($CourseRcmd as $k=>$v){?> 
               <tr>
               <td><?php
-               $Center->OutputOneCourse($v);?>
+               $Center->OutputOneCourseNew($v);?>
               </td>
               <td> 
               <form name=<?php echo $v['id'] ?> action='../../sub/DeleteRecommed.php' method='post'>

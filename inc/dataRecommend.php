@@ -7,11 +7,9 @@ class dataRecommend extends MyDB{
     $this->ATTRIBUTES=self::$db->getAttribute('recommend');
     }
      function Check(& $values){
-		$course_id=$values['course_id'];
-		$teacher_id=$values['teacher_id'];
-    if($course_id&&!$teacher_id)
+    if(isset($values['course_id'])&&!isset($values['teacher_id']))
     	return 1;
-    elseif(!$course_id&&$teacher_id)
+    else if(!isset($values['course_id'])&&isset($values['teacher_id']))
       return 2;
     else
       return 0;

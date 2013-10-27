@@ -26,5 +26,11 @@ function OutputOneCourse($v){
   echo ">{$v['name']}</a>";
 
 }
+function OutputOneCourseNew($v){
+   echo "<a target=_blank href=";
+    echo  $v['link']?  "\"{$v['link']}\"":"../../course/?id={$v['course_id'] }";
+  echo ">{$v['name']}</a>";
+
+}
 }
 ?>

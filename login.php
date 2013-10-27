@@ -13,7 +13,8 @@ class LoginClass{
     session_start();
   }
   function logout($jump=true){
-    $type=$_SESSION['type'];
+    if(isset($_SESSION['type']))
+      $type=$_SESSION['type'];
     if(isset($_SESSION['name'])||isset($_SESSION['type'])) 
       $_SESSION=array();
     if(isset($_COOKIE['name'])){

@@ -6,9 +6,6 @@ class dataStudent extends   SecurityDB{
     }
     function SelectByPKey($Pkey,$like=false){		
 		$student_id=intval($Pkey);
-		if(!$student_id){
-		  echo "error is not int";
-		}
 	  if($like){	
 		$sql = "select * from `student` where `student_id` like '{$student_id}%'";
 		$data=self::$db->getRows($sql);

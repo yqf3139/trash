@@ -56,7 +56,7 @@ class dataCourseSelection extends MyDB{
 		}
 	function DeleteByClass($Pkey){
 		$class_id=intval($Pkey);
-    echo $class_id;
+    //echo $class_id;
 		if(!$class_id){
 		  return -1;
 		}
@@ -84,7 +84,7 @@ class dataCourseSelection extends MyDB{
       $dbStudent=new dataStudent;
       $res1=$dbClass->SelectByPKey($values['class_id']);
       $res2=$dbStudent->SelectByPKey($values['student_id']);
-      echo $res2;
+      //echo $res2;
       if(!empty($res1)&&!empty($res2)){
         $res=self::$db->insert('courseselection',$values);
         return $res;

@@ -107,7 +107,7 @@ $Picture=$index->GetPicture();
                 	    <div id="headPho_one">
                       <img src=<?php  echo substr($v['picture'],6) ?> />
                       <?php echo "<a target=_blank href=\"";
-                            echo $v['link']? $v['link']:'./teacher/teacher_info.php?id='.$v['teacher_id'];
+                            echo isset($v['link'])? $v['link']:'./teacher/teacher_info.php?id='.$v['teacher_id'];
                             echo "\">{$v['name']}</a>" ;?>
                       </div>
                <?php }?> 

@@ -134,7 +134,7 @@ class dataClass extends MyDB{
     function InsertByPkey($values){
 	  	
 		if($this->Check($values)){
-        $res=self::$db->insert('class',$values,true,$condition);
+        $res=self::$db->insert('class',$values,true);
         if($res)
         parent::makedir('../file/Homework/'.$res);
         return $res;
